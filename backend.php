@@ -10,7 +10,7 @@ $username = htmlspecialchars($_GET['username']);
 $curl = curl_init();
 
 curl_setopt_array($curl, [
-    CURLOPT_URL => "https://instagram-bulk-profile-scrapper.p.rapidapi.com/clients/api/ig/ig_profile?ig=$username&response_type=feeds",
+    CURLOPT_URL => "https://instagram-bulk-profile-scrapper.p.rapidapi.com/clients/api/ig/ig_profile?ig=dunkizabora&response_type=feeds",
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_ENCODING => "",
     CURLOPT_MAXREDIRS => 10,
